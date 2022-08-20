@@ -1,0 +1,26 @@
+
+#equals {
+  background-color: #171f92;
+}
+
+.button:hover {
+  background-color: #323330;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+@media all and (max-width: 600px) {
+  body {
+    background-color:darkred;
+  }
+}
+
+
+@media all and (min-width: 700px) {
+  body {
+    box-sizing: border-box;
+  }
+  #equals {
+    background-color: darkred;
+  }
+ }
